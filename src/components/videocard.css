@@ -1,0 +1,14 @@
+.button-conatiner
+{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.articles
+{
+  align-items: center;
+  border-radius: 30px ;
+  color: solid grey;
+  width: 10%;
+
+}

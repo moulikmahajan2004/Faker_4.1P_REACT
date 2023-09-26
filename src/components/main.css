@@ -1,0 +1,14 @@
+.image
+{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    padding:10px;
+    display:flex;
+}
+.ARTICLES
+{
+    text-align: center;
+    font-weight: 200;
+    font-style:'times new roman';
+}

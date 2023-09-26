@@ -1,0 +1,62 @@
+
+.column {
+  
+  width: 33%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display:contents
+  
+}
+.one
+{
+    flex: 1;
+}
+.TEXT1
+{
+    font-weight: 300;
+    font-style: 'times new roman';
+    margin-left: 20%;
+}
+
+.TEXT2
+{
+    font-weight: 300;
+    font-style: 'times new roman';
+    margin-left: 10%;
+}
+
+.TEXT3
+{
+    font-weight: 300;
+    font-style: 'times new roman';
+    margin-left: 20%;
+}
+.desc
+{
+  text-align: center;
+
+}
+.button-conatiner
+{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.articles
+{
+  align-items: center;
+  border-radius: 30px ;
+  color: solid grey;
+  width: 10%;
+
+}
+.ARTICLES
+{
+    text-align: center;
+    font-weight: 200;
+    font-style:'times new roman';
+}

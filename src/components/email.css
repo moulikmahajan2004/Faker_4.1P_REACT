@@ -1,0 +1,119 @@
+/* Default styles for the .divnav1 */
+.divnav1 {
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  .list1 {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(93, 96, 96, 0.87);
+  }
+  
+  .li1 {
+    margin: 5px;
+  }
+  
+  .head2 {
+    padding: 5px;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .Search1 {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 700px;
+  }
+  
+  .search_button1, .login1 {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .search_button1 {
+    margin-left: 30px;
+  }
+  
+  .login1 {
+    margin-left: 20px;
+  }
+  
+  /* Apply styles when the screen width is 600px or less (typically for mobile devices) */
+  @media (max-width: 600px) {
+    .list1 {
+      flex-direction: column;
+      align-items: center; /* Center items vertically */
+    }
+  
+    .Search1 {
+      max-width: 100%; /* Make the input box full width on small screens */
+    }
+  
+    .search_button1, .login1 {
+      width: 100%;
+      margin: 10px 0; /* Adjust margin as needed */
+    }
+  }
+
+  .box
+  {
+    background-color: rgb(67, 214, 109);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .explore{
+    word-spacing: 300px;
+    font-weight: 500;
+    font-style:'times new roman';
+
+  }
+  .explore1{
+    word-spacing: 400px;
+    font-weight: 500;
+    font-style:'times new roman';
+    
+  }
+  
+  .explore2{
+    word-spacing: 370px;
+    font-weight: 500;
+    font-style:'times new roman';
+  }
+
+  .explore3{
+    word-spacing: 380px;
+    font-weight: 500;
+    font-style:'times new roman';
+  }
+
+  .dev
+  {
+    font-family: 'Times New Roman';
+    font-size: larger;
+    font-weight:bold;
+    font-size: xx-large;
+    text-align: center;
+    padding: 7px;
+    
+  }
+
+  .codeofconduct {
+   justify-content: center;
+    align-items: center;
+  }
+  .one1{
+    margin-left:250px;
+    display: inline-block;
+    align-items: center;
+    
+  }
